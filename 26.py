@@ -1,3 +1,4 @@
 ax=input()
-ax=ax.replace("  "," ")
+if " " in ax:
+    ax=ax.replace("  "," ")
 print(ax)
