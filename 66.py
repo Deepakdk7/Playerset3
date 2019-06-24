@@ -1,5 +1,5 @@
-bx=input().split()
-k=int(bx[1])
+cx=input().split()
+k=int(cx[1])
 a=input().split()
 b=[]
 d=[]
