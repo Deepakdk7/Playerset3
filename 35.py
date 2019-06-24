@@ -5,7 +5,8 @@ d=[]
 for i in ax:
     if i not in a:
         a.append(i)
-a.remove(' ')
+if ' ' in a:
+    a.remove(' ')
 for i in a:
     c=0
     for j in range(0,len(ax)):
@@ -17,4 +18,4 @@ for i in a:
 x=min(d)
 for i in range(0,len(b)):
     if x==b[i]:
-        print(b[i-1],end=' ')
+        print(b[i-1].lower(),end=' ')
