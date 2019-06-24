@@ -1,5 +1,7 @@
 ax=int(input())
-a=list(input().split())
+a=(input())
+a=list(a.replace(' ',''))
+print(a)
 b=0
 c=[-1]
 d=[]
